@@ -14,6 +14,6 @@
 
 Gồm 3 cách: 
 
-    1. Internal: sử dụng trực tiếp trong file html với thẻ `style`
-    2. External: tạo 1 file .css riêng và liên kết lại bằng thẻ `link`
-    3. Inline: Đưa thẳng Attribute vào trong thẻ muốn chỉnh sửa
+    1. Internal: sử dụng cặp thẻ Style đặt trực tiếp trong file HTML và viết CSS trong cặp thẻ đó
+    2. External: tạo 1 file .CSS bên ngoài và liên kết lại bằng thẻ Link
+    3. Inline: Đưa thẳng Attribute vào trong thẻ muốn chỉnh sửa trong file HTML
