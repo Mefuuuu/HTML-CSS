@@ -1,5 +1,5 @@
-# HTML-CSS
 
+# HTML
     1. h1 - h6 - heading
     2. p - paragraph
     3. img - image
@@ -10,3 +10,6 @@
     8. button
     9. div  
 
+# CSS
+
+Gồm 3 cách: Internal, External, Inline
