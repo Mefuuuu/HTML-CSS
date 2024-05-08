@@ -78,3 +78,17 @@ Gồm 3 cách:
     padding: 0; /* Loại bỏ padding mặc định */
 }
 ```
+- CSS Functions
+  + var()
+  + linear-gradient()
+  + rgba()
+  + rgb()
+  + calc()
+  + attr()
+
+- CSS pseudo-classes
+  + :root
+  + :hover : kích hoạt khi di chuột vào
+  + :active : kích hoạt khi bấm vào
+  + :first-child
+  + :last-child
