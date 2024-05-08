@@ -33,6 +33,8 @@ Gồm 3 cách:
   + Universal selector and inherited: cả 2 đều 0đ, đều có thể được ghi đè lên
 
 - Variable
+
+  Biến trong CSS tạo ra để dễ thay đổi thuộc tính với số lượng lớn
   
 ```c
 :root{
@@ -44,4 +46,28 @@ Gồm 3 cách:
     font-size: 20px;
 } // sử dụng biến
 ```
-
+- CSS UNIT
+  + Absolute units:
+    
+    .px
+    
+    .pt
+    
+    .cm
+    
+    .mm
+    
+    .inch ...
+    
+  + Relative units:
+    
+    .%
+    
+    .rem
+    
+    .em
+    
+    .vw
+    
+    .vh
+      
