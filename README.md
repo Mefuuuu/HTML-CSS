@@ -33,3 +33,15 @@ Gồm 3 cách:
   + Universal selector and inherited: cả 2 đều 0đ, đều có thể được ghi đè lên
 
 - Variable
+  
+```c
+:root{
+    --text-color: violet;
+} // Đặt biến
+
+.second-heading {
+    color: var(--text-color);
+    font-size: 20px;
+} // sử dụng biến
+```
+
