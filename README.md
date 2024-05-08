@@ -92,3 +92,10 @@ Gồm 3 cách:
   + :active : kích hoạt khi bấm vào
   + :first-child
   + :last-child
+    
+- Pseudo-elements
+  + ::before
+  + ::after
+  + ::first-letter
+  + ::first-line
+  + ::selection
