@@ -71,3 +71,10 @@ Gồm 3 cách:
     
     .vh
       
+- Reset margin được đặt mặc định:
+```c
+* {
+    margin: 0; /* Loại bỏ margin mặc định */
+    padding: 0; /* Loại bỏ padding mặc định */
+}
+```
