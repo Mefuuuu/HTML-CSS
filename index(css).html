@@ -6,19 +6,89 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
     <!-- <style>
-        
+        h1 {
+    color: red;
+    font-size: 50px;
+}
     </style> -->
+    <style>
+         .box {
+            width: calc(2% + 20%);
+            height: 100px;
+            background-color: rgb(34, 50, 189);
+        }
+        /*
+        .box::after{
+            content: attr(data-title);
+        }
+
+        a::after{
+            content: " (" attr(href)")  ";
+        }
+
+        .box:active{
+            background-color: aquamarine;
+        }
+
+        h1:hover{
+            color: aqua;
+        }
+
+        li:first-child{
+            color: blue;
+            font-size: 24px;
+        }
+        li:last-child{
+            color: aqua;
+        } */
+
+        .box::before{
+            content: "";
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: azure;
+        }
+
+        .box::after{
+            content: "";
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: bisque;
+        }
+
+        h1::first-letter{
+            font-size: 50px;
+            color: blueviolet;
+        }
+
+        h1::first-line{
+            font-size: 22px;
+        }
+
+        h1::selection{
+            background-color: black;
+            color: azure;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="box" data-title="Đây là box màu RGB" ></div>
+
+    <a href="https://fullstack.edu.vn/">Học lập trình</a>
+
     <div>
-        <h1 style="color: blueviolet;font-size: 23px;">CSS in HTML?</h1>
+        <h1 id="first-heading"> CSS in HTML? <br/> dòng thứ 2 </h1>
         <ol>
-            <li>Internal</li>
-            <li>External</li>
-            <li>Inline</li>
+            <li class="second-heading">Internal</li>
+            <li class="second-heading">External</li>
+            <li class="second-heading">Inline</li>
         </ol>
+
     </div>
 </body>
 
 </html>
+
