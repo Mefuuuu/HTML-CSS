@@ -90,12 +90,26 @@ Gồm 3 cách:
   + :root
   + :hover : kích hoạt khi di chuột vào
   + :active : kích hoạt khi bấm vào
+    ```c
+    .box:active{
+            background-color: aquamarine;
+        }
+    ```
   + :first-child
   + :last-child
     
 - Pseudo-elements
   + ::before
   + ::after
+    ```c
+    .box::after{
+            content: "";
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: bisque;
+        }
+    ```
   + ::first-letter
   + ::first-line
   + ::selection
