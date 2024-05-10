@@ -113,3 +113,12 @@ Gồm 3 cách:
   + ::first-letter
   + ::first-line
   + ::selection
+- CSS Padding: Phần đệm, có làm tăng kích thước của Element
+  
+  ![image](https://github.com/Mefuuuu/HTML-CSS/assets/133778142/4ca492d0-9ecd-4c89-881f-b5a66bfdc2fd)
+- CSS Border: đường viền
+  + Mặc định border-width là medium, thông thường sẽ tương ứng với 3px
+  + border-style: solid; //nét thẳng
+  + border-style: dashed; //nét đứt
+  + border: 10px solid #333; // cách viết ngắn gọn
+  
