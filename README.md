@@ -127,3 +127,8 @@ Gồm 3 cách:
   + box-sizing: unset; //Thiết lập lại
   + box-sizing: content-box; //trở về khi ko set boxsizing
 - CSS Background-image 
+  +  background-image: linear-gradient(180deg, rgba(255, 255, 0, 0.4), rgba(0, 255, 255, 0.4)); //Tạo background với dãy màu chuyển, Nếu bỏ trống chỗ xoay thì mặc định 180 độ
+  +  background-size: 100%; //size
+  +  background-repeat: no-repeat; //tránh sự lặp lại của ảnh, nếu dùng repeat có thể tạo background với ảnh lặp lại
+
+![image](https://github.com/Mefuuuu/HTML-CSS/assets/133778142/87fbeccb-b618-4e6c-be94-4954850e5525)
