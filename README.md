@@ -141,5 +141,5 @@ Gồm 3 cách:
   + background-origin: padding-box;
 - CSS Background-position: Vị trí, Khi không ghi gì thì sẽ là center
 - CSS Background shorthand: Rút gọn code
-  + background: url(...) no-repeat center / contain;
+  + background: url(...) no-repeat center / contain; //trước background-size phải có dấu /
   
