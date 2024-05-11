@@ -142,4 +142,11 @@ Gồm 3 cách:
 - CSS Background-position: Vị trí, Khi không ghi gì thì sẽ là center
 - CSS Background shorthand: Rút gọn code
   + background: url(...) no-repeat center / contain; //trước background-size phải có dấu /
-  
+- CSS Positon: Relative : là vị trí tương đối không phụ thuộc vào ai cả
+```c
+        h1{
+            position: relative;
+            top: 100px;
+            left: 100px;
+        }
+```
