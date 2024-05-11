@@ -6,7 +6,12 @@
     <title>Đệm viền và khoảng lề</title>
 
     <style>
-        .box {
+        html,
+        body {
+            margin: 0;
+        }
+
+        /* .box {
             width: 60px;
             height: 60px;
             color: #fff;
@@ -21,20 +26,29 @@
 
         .box2 {
             background-color: yellow;
+            margin-left: 20px;
         }
 
         .box3 {
             background-color: red;
             padding: 10px 12px;
             border: 10px solid #333;
+        } */
 
-             
+        .box1{
+            width: 100px;
+            height: 100px;
+            color: #fff;
+            background-color: blueviolet;
+            padding: 16px;
+            border: 2px solid #333;
+            box-sizing: border-box;
         }
     </style>
 </head>
 
 <body>
-    <div class="box box1">Box 1</div>
+    <div class="box box1">Đây là nội dụng bài viết</div>
     <div class="box box2">Box 2</div>
     <div class="box box3">Box 3</div>
 
