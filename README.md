@@ -129,6 +129,8 @@ Gồm 3 cách:
 - CSS Background-image 
   +  background-image: linear-gradient(180deg, rgba(255, 255, 0, 0.4), rgba(0, 255, 255, 0.4)); //Tạo background với dãy màu chuyển, Nếu bỏ trống chỗ xoay thì mặc định 180 độ
   +  background-size: 100%; //size
+  +  background-size: contain; //Thay đổi kích thước hình nền để đảm bảo hình ảnh hiển thị đầy đủ
+  +  background-size: cover; // Thay đổi kích thước hình nền để bao phủ toàn bộ vùng chứa, ngay cả khi phải kéo dài hình ảnh hoặc cắt bớt một chút ở một trong các cạnh . demo: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-size&preval=cover
   +  background-repeat: no-repeat; //tránh sự lặp lại của ảnh, nếu dùng repeat có thể tạo background với ảnh lặp lại
 
 ![image](https://github.com/Mefuuuu/HTML-CSS/assets/133778142/87fbeccb-b618-4e6c-be94-4954850e5525)
