@@ -121,4 +121,9 @@ Gồm 3 cách:
   + border-style: solid; //nét thẳng
   + border-style: dashed; //nét đứt
   + border: 10px solid #333; // cách viết ngắn gọn
-  
+- CSS Margin (khoảng cách lề): Không làm tăng kích thước như 2 cái trên, có thể rút gọn như Padding
+- CSS Box-sizing: Có tác dụng giữ nguyên tổng kích thước khi sử dụng Padding và Border
+  + box-sizing: border-box; // giữ kích thước
+  + box-sizing: unset; //Thiết lập lại
+  + box-sizing: content-box; //trở về khi ko set boxsizing
+- CSS Background-image 
