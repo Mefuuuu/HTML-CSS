@@ -150,3 +150,18 @@ Gồm 3 cách:
             left: 100px;
         }
 ```
+- CSS Position: Absolute: vị trí tuyệt đối dùng khi có 1 đối tượng là con của 1 đối tượng khác và cần di chuyển vị trí đối tượng con xung quanh đối tượng cha (khi 1 đối tượng phụ thuộc vào đối tượng khác)
+  + Thẻ con chỉ cần biết thẻ cha gần nhất có sử dụng position
+  + Thường được dùng để làm mờ như ảnh:
+    
+    ![image](https://github.com/Mefuuuu/HTML-CSS/assets/133778142/95550614-e645-48fc-86f4-2c66c54a12f7)
+- CSS Position: Fixed: (khi 1 đối tượng phụ thuộc vào trình duyệt)
+  + ```c
+    .header{
+            width: 100vw;
+            height: 120px;
+            background-color: black;
+            position: fixed;
+            top: 0;
+        }
+    ```
