@@ -165,3 +165,4 @@ Gồm 3 cách:
             top: 0;
         }
     ```
+- CSS Position: Sticky: (hạn chế dùng, tại nhiều trình duyệt không hỗ trợ)
