@@ -155,7 +155,7 @@ Gồm 3 cách:
   + Thường được dùng để làm mờ như ảnh:
     
     ![image](https://github.com/Mefuuuu/HTML-CSS/assets/133778142/95550614-e645-48fc-86f4-2c66c54a12f7)
-- CSS Position: Fixed: (khi 1 đối tượng phụ thuộc vào trình duyệt)
+- CSS Position: Fixed: (khi 1 đối tượng phụ thuộc vào trình duyệt) thường dùng khi đính Header lên đầu
   + ```c
     .header{
             width: 100vw;
