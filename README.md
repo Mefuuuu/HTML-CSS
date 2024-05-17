@@ -166,3 +166,17 @@ Gồm 3 cách:
         }
     ```
 - CSS Position: Sticky: (hạn chế dùng, tại nhiều trình duyệt không hỗ trợ)
+
+- More:
+  + letter-spacing: 4px; // tăng khoảng cách các chữ
+  + text-align: center; // căn giữa 
+  + text-align: justify; // căn giữa đoạn văn 2 bên
+  + Sau khi padding dùng 
+    margin-left: auto;
+    margin-right: auto; // để căn content ra giữa map
+  + font-weight: 500; // giới hạn đến 700 chỉnh độ đậm nhạt của chữ
+  + cursor: pointer; chỉnh hình con trỏ chuột
+  + text-transform: uppercase; // In hoa chữ
+  + font-family: Arial, Helvetica, sans-serif; // chỉnh font chữ
+  + font-style: italic; // in nghiêng
+  + opacity: 0.6; // chỉnh độ trong suốt
