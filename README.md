@@ -181,3 +181,4 @@ Gồm 3 cách:
   + font-style: italic; // in nghiêng
   + opacity: 0.6; // chỉnh độ trong suốt
   + line-height: 1.4; // tăng khoảng cách dòng trong đoạn văn
+  + 
