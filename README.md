@@ -182,3 +182,6 @@ Gồm 3 cách:
   + opacity: 0.6; // chỉnh độ trong suốt
   + line-height: 1.4; // tăng khoảng cách dòng trong đoạn văn 
   + text-decoration: none; // bỏ gạch chân
+  + display: flex;
+    align-items: center;    // giữa chiều cao
+    justify-content: center;    // giữa chiều rộng
