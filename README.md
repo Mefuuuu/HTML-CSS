@@ -6,9 +6,10 @@
     4. a - anchor
     5. ul, li - unordered list, list item
     6. table
-    7. input
-    8. button
-    9. div  
+    7. input - nhập thông tin trực tiếp trên web
+    8. Label - định nghĩa nhãn thành phần input
+    9. button - nút nhấn
+    10. div  
 
 # CSS
 
