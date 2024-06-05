@@ -183,5 +183,7 @@ Gồm 3 cách:
   + line-height: 1.4; // tăng khoảng cách dòng trong đoạn văn 
   + text-decoration: none; // bỏ gạch chân
   + display: flex;
+    
     align-items: center;    // giữa chiều cao
+    
     justify-content: center;    // giữa chiều rộng
