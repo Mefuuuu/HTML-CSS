@@ -198,3 +198,20 @@ Gồm 3 cách:
     align-items: center;    // giữa chiều cao
     
     justify-content: center;    // giữa chiều rộng
+
+  + @keyframes // tạo chuyển động liên tiếp của hình ảnh tĩnh
+    
+    animation: modalFadeIn ease .5s; // thêm vào class muốn áp dụng
+    
+  ```c
+  @keyframes modalFadeIn {
+    from {
+        opacity: 0.3;
+        transform: translateY(-140px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  ```
