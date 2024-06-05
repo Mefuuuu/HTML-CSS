@@ -11,6 +11,16 @@
     9. button - nút nhấn
     10. div  
 
+```c
+Focus vào id tương ứng của cái input 
+<label for="quantity" class="modal-label">
+    <i class="ti-shopping-cart">
+        Tickets, $15 per person
+    </i>
+</label>
+<input id="quantity" type="text" class="modal-input" placeholder="How many?">
+```
+
 # CSS
 
 Gồm 3 cách: 
