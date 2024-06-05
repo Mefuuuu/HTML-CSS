@@ -10,6 +10,14 @@
     8. Label - định nghĩa nhãn thành phần input
     9. button - nút nhấn
     10. div  
+```c
+// input:text.form-control [tab]
+<input type="text" name="" placeholder="" id="" class="form-control"> // tên class input thường đặt là form-control
+<input type="submit" value="SEND">
+// thêm required trong input để bắt người nhập phải nhập không chừa trống
+```
+
+
 
 ```c
 Focus vào id tương ứng của cái input 
