@@ -223,3 +223,5 @@ Gồm 3 cách:
     }
   }
   ```
+  + scroll-behavior: smooth; //chỉnh cuộn mượt
+
